@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Giphy Party!</title>
+  <link rel="stylesheet" type="text/css" href="styles.css">
+</head>
+<body>
+  <form id="search-form">
+    <label for="search-input">Search GIPHY:</label>
+    <input type="text" id="search-input" placeholder="Enter a search term" required>
+    <button type="submit">Search</button>
+  </form>
+
+  <button id="clear-button">Clear GIFs</button> <!-- Add the clear button here -->
+
+  <div id="results"></div>
+
+  <script src="https://code.jquery.com/jquery-3.2.1.js"></script>
+  <script src="https://unpkg.com/axios/dist/axios.js"></script>
+  <script src="app.js"></script>
+</body>
+</html>
